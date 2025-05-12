@@ -1,0 +1,45 @@
+
+@media (max-width: 1200px) {
+    
+    .header-container {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px; 
+    }
+
+    
+    .ttitle {
+        font-size: 40px; 
+        margin-left: 20px; 
+    }
+
+    .desc {
+        font-size: 20px; 
+        margin-left: 20px;
+        width: 80%; 
+    }
+
+    .btnimg {
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .btnimg img {
+        height: 20vh; 
+    }
+
+    .sec-main2 {
+        padding-left: 20px; 
+    }
+}
+
+@media (max-width: 720px) {
+    .chuvachek {
+        display: none;
+    }
+}
